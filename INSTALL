@@ -5,6 +5,10 @@
 Переключение в виртуальную среду
     venv/bin/activate
 
+Запус dev приложения
+    (set)export FLASK_APP=microblog.py
+    flask run
+
 Пакеты pip install
     flask
 
