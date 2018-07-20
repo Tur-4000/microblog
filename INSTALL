@@ -12,5 +12,7 @@
 Пакеты pip install
     flask
     flask-wtf
+    flask-sqlalchemy
+    flask-migrate
 
 
