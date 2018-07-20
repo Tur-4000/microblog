@@ -9,6 +9,11 @@
     (set)export FLASK_APP=microblog.py
     flask run
 
+База данных (миграция)
+    flask db init -- создание репозитория
+    flask db migrate -- создание сценария миграции
+    flask db upgrade
+
 Пакеты pip install
     flask
     flask-wtf
