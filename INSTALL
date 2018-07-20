@@ -1,0 +1,11 @@
+Создание виртуальной среды
+    python -m venv venv
+    virtualenv venv
+
+Переключение в виртуальную среду
+    venv/bin/activate
+
+Пакеты pip install
+    flask
+
+
