@@ -3,7 +3,7 @@
     virtualenv venv
 
 Переключение в виртуальную среду
-    venv/bin/activate
+    venv/Scripts/activate
 
 Запус dev приложения
     (set)export FLASK_APP=microblog.py
