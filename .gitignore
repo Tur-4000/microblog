@@ -1,5 +1,7 @@
 *.py[cod]
 venv/
+log/
+logs/
 *.db
 
 # C extensions
