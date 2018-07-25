@@ -4,6 +4,7 @@ log/
 logs/
 *.db
 .vscode/
+*.code-workspace
 
 # C extensions
 *.so
