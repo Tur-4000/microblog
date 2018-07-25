@@ -12,4 +12,4 @@ class Config(object):
     MAIL_USERNAME = os.environ.get('MAIL_USERNAME') or 'flask'
     MAIL_PASSWORD = os.environ.get('MAIL_PASSWORD') or '111'
     ADMINS = ['admin@localhost']
-    POSTS_PER_PAGE = 3
+    POSTS_PER_PAGE = 10
