@@ -5,6 +5,7 @@ logs/
 *.db
 .vscode/
 *.code-workspace
+messages.pot
 
 # C extensions
 *.so

@@ -13,3 +13,4 @@ class Config(object):
     MAIL_PASSWORD = os.environ.get('MAIL_PASSWORD') or '111'
     ADMINS = ['admin@localhost.local']
     POSTS_PER_PAGE = 5
+    LANGUAGES = ['en', 'ru']

@@ -1,0 +1,198 @@
+# Russian translations for PROJECT.
+# Copyright (C) 2018 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2018-07-28 23:30+0300\n"
+"PO-Revision-Date: 2018-07-28 23:37+0300\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ru\n"
+"Language-Team: ru <LL@li.org>\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: app/__init__.py:20
+msgid "Please log in to access this page."
+msgstr ""
+
+#: app/email.py:19
+msgid "[Microblog] Reset You Password"
+msgstr ""
+
+#: app/forms.py:8 app/forms.py:15 app/forms.py:33
+msgid "Username"
+msgstr ""
+
+#: app/forms.py:9 app/forms.py:17 app/forms.py:62
+msgid "Password"
+msgstr "Пароль"
+
+#: app/forms.py:10
+msgid "Remember Me"
+msgstr "Запомнить меня"
+
+#: app/forms.py:11 app/routes.py:71
+msgid "Sign In"
+msgstr ""
+
+#: app/forms.py:16 app/forms.py:34 app/forms.py:57
+msgid "Email"
+msgstr ""
+
+#: app/forms.py:18 app/forms.py:64
+msgid "Repeat Password"
+msgstr ""
+
+#: app/forms.py:19 app/routes.py:92 app/templates/register.html:5
+msgid "Register"
+msgstr ""
+
+#: app/forms.py:24 app/forms.py:47
+msgid "Please use a different username."
+msgstr ""
+
+#: app/forms.py:29 app/forms.py:53
+msgid "Please use a different email address."
+msgstr ""
+
+#: app/forms.py:35
+msgid "About me"
+msgstr ""
+
+#: app/forms.py:36 app/forms.py:71
+msgid "Submit"
+msgstr ""
+
+#: app/forms.py:58 app/forms.py:65
+msgid "Request Password Reset"
+msgstr ""
+
+#: app/forms.py:69
+msgid "Say something"
+msgstr ""
+
+#: app/routes.py:27
+msgid "You post is now live!"
+msgstr ""
+
+#: app/routes.py:36
+msgid "Home Page"
+msgstr ""
+
+#: app/routes.py:51
+msgid "Explore"
+msgstr ""
+
+#: app/routes.py:64
+msgid "Invalid username or password"
+msgstr ""
+
+#: app/routes.py:90
+msgid "Congratulation, you are now a registered user!"
+msgstr ""
+
+#: app/routes.py:119
+msgid "Your changes have been saved."
+msgstr ""
+
+#: app/routes.py:125
+msgid "Edit Profile"
+msgstr ""
+
+#: app/routes.py:133 app/routes.py:149
+#, python-format
+msgid "User %(username)s not found."
+msgstr ""
+
+#: app/routes.py:136
+msgid "You cannot follow youself!"
+msgstr ""
+
+#: app/routes.py:140
+#, python-format
+msgid "You are following %(username)s!"
+msgstr ""
+
+#: app/routes.py:152
+msgid "You cannot unfollow youself"
+msgstr ""
+
+#: app/routes.py:156
+#, python-format
+msgid "You are not following %(username)s."
+msgstr ""
+
+#: app/routes.py:169
+msgid "Check your email for the instructions to reset your password"
+msgstr ""
+
+#: app/routes.py:172 app/templates/reset_password_request.html:5
+msgid "Reset Password"
+msgstr ""
+
+#: app/routes.py:186
+msgid "You password has been reset."
+msgstr ""
+
+#: app/templates/404.html:4
+msgid "File Not Found"
+msgstr ""
+
+#: app/templates/404.html:5
+msgid "Back"
+msgstr ""
+
+#: app/templates/base.html:4
+msgid "Welcome to Microblog"
+msgstr ""
+
+#: app/templates/reset_password.html:5
+msgid "Reset Your Password"
+msgstr ""
+
+#: app/templates/user.html:8
+msgid "User"
+msgstr ""
+
+#: app/templates/user.html:13
+msgid "Last seen on"
+msgstr ""
+
+#: app/templates/user.html:15
+#, python-format
+msgid "%(count)d followers"
+msgstr ""
+
+#: app/templates/user.html:15
+#, python-format
+msgid "%(count)d following"
+msgstr ""
+
+#: app/templates/user.html:17
+msgid "Edit your profile"
+msgstr "Редактировать профиль"
+
+#: app/templates/user.html:19
+msgid "Follow"
+msgstr "Подписаться"
+
+#: app/templates/user.html:21
+msgid "Unfollow"
+msgstr "Отписаться"
+
+#: app/templates/user.html:33
+msgid "Newer posts"
+msgstr ""
+
+#: app/templates/user.html:38
+msgid "Older posts"
+msgstr ""
+

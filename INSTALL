@@ -24,6 +24,9 @@
     pyjwt
     flask-bootstrap
     flask-moment-0.6.0
+    Babel-2.6.0 
+    flask-babel-0.11.2 
+    pytz-2018.5
 
 
 
