@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2018-07-29 00:20+0300\n"
+"POT-Creation-Date: 2018-07-29 01:31+0300\n"
 "PO-Revision-Date: 2018-07-29 00:20+0300\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: ru\n"
@@ -39,7 +39,7 @@ msgstr "Пароль"
 msgid "Remember Me"
 msgstr "Запомнить меня"
 
-#: app/forms.py:11 app/routes.py:71 app/templates/login.html:5
+#: app/forms.py:11 app/routes.py:72 app/templates/login.html:5
 msgid "Sign In"
 msgstr ""
 
@@ -51,7 +51,7 @@ msgstr "Email"
 msgid "Repeat Password"
 msgstr "Повторите пароль"
 
-#: app/forms.py:19 app/routes.py:92 app/templates/register.html:5
+#: app/forms.py:19 app/routes.py:93 app/templates/register.html:5
 msgid "Register"
 msgstr "Регистрация"
 
@@ -79,76 +79,76 @@ msgstr ""
 msgid "Say something"
 msgstr ""
 
-#: app/routes.py:27
+#: app/routes.py:28
 msgid "You post is now live!"
-msgstr ""
+msgstr "Ваш пост размещён!"
 
-#: app/routes.py:36
+#: app/routes.py:37
 msgid "Home Page"
 msgstr "Главная"
 
-#: app/routes.py:51 app/templates/base.html:22
+#: app/routes.py:52 app/templates/base.html:22
 msgid "Explore"
 msgstr ""
 
-#: app/routes.py:64
+#: app/routes.py:65
 msgid "Invalid username or password"
 msgstr ""
 
-#: app/routes.py:90
+#: app/routes.py:91
 msgid "Congratulation, you are now a registered user!"
-msgstr "Поздравляем, теперь вызарегистрированный пользователь!"
+msgstr "Поздравляем, теперь вы зарегистрированный пользователь!"
 
-#: app/routes.py:119
+#: app/routes.py:120
 msgid "Your changes have been saved."
 msgstr ""
 
-#: app/routes.py:125 app/templates/edit_profile.html:5
+#: app/routes.py:126 app/templates/edit_profile.html:5
 msgid "Edit Profile"
 msgstr ""
 
-#: app/routes.py:133 app/routes.py:149
+#: app/routes.py:134 app/routes.py:150
 #, python-format
 msgid "User %(username)s not found."
 msgstr ""
 
-#: app/routes.py:136
+#: app/routes.py:137
 msgid "You cannot follow youself!"
 msgstr ""
 
-#: app/routes.py:140
+#: app/routes.py:141
 #, python-format
 msgid "You are following %(username)s!"
 msgstr ""
 
-#: app/routes.py:152
+#: app/routes.py:153
 msgid "You cannot unfollow youself"
 msgstr ""
 
-#: app/routes.py:156
+#: app/routes.py:157
 #, python-format
 msgid "You are not following %(username)s."
 msgstr ""
 
-#: app/routes.py:169
+#: app/routes.py:170
 msgid "Check your email for the instructions to reset your password"
 msgstr ""
 
-#: app/routes.py:172 app/templates/reset_password_request.html:5
+#: app/routes.py:173 app/templates/reset_password_request.html:5
 msgid "Reset Password"
 msgstr ""
 
-#: app/routes.py:186
+#: app/routes.py:187
 msgid "You password has been reset."
 msgstr ""
 
 #: app/templates/404.html:4
 msgid "File Not Found"
-msgstr ""
+msgstr "Страница не найдена"
 
 #: app/templates/404.html:5 app/templates/500.html:6
 msgid "Back"
-msgstr ""
+msgstr "Назад"
 
 #: app/templates/500.html:4
 msgid "An unexpected error has occurred"
@@ -161,52 +161,52 @@ msgstr ""
 #: app/templates/_post.html:14
 #, python-format
 msgid "%(username)s said %(when)s"
-msgstr ""
+msgstr "%(username)s написал %(when)s"
 
 #: app/templates/base.html:4
 msgid "Welcome to Microblog"
-msgstr ""
+msgstr "Добро пожаловать в Microblog"
 
 #: app/templates/base.html:21
 msgid "Home"
-msgstr ""
+msgstr "Главная"
 
 #: app/templates/base.html:26
 msgid "Login"
-msgstr ""
+msgstr "Войти"
 
 #: app/templates/base.html:28
 msgid "Profile"
-msgstr ""
+msgstr "Профиль"
 
 #: app/templates/base.html:29
 msgid "Logout"
-msgstr ""
+msgstr "Выйти"
 
 #: app/templates/index.html:5
 #, python-format
 msgid "Hi, %(username)s!"
-msgstr ""
+msgstr "Привет, %(username)s!"
 
 #: app/templates/index.html:19
 msgid "Newest posts"
-msgstr ""
+msgstr "Новые посты"
 
 #: app/templates/index.html:24 app/templates/user.html:38
 msgid "Older posts"
-msgstr ""
+msgstr "Старые посты"
 
 #: app/templates/login.html:13
 msgid "New User?"
-msgstr ""
+msgstr "Новый пользователь?"
 
 #: app/templates/login.html:14
 msgid "Click to Register!"
-msgstr ""
+msgstr "Кликните для регистрации!"
 
 #: app/templates/login.html:17
 msgid "Forgot Your Password?"
-msgstr ""
+msgstr "Забыли пароль?"
 
 #: app/templates/login.html:18
 msgid "Click to Reset It"
@@ -218,25 +218,25 @@ msgstr ""
 
 #: app/templates/user.html:8
 msgid "User"
-msgstr ""
+msgstr "Пользователь"
 
 #: app/templates/user.html:13
 msgid "Last seen on"
-msgstr ""
+msgstr "Последнее посещение"
 
 #: app/templates/user.html:15
 #, python-format
 msgid "%(count)d followers"
-msgstr ""
+msgstr "%(count)d подписчиков"
 
 #: app/templates/user.html:15
 #, python-format
 msgid "%(count)d following"
-msgstr ""
+msgstr "на %(count)d подписан"
 
 #: app/templates/user.html:17
 msgid "Edit your profile"
-msgstr ""
+msgstr "Редактировать профиль"
 
 #: app/templates/user.html:19
 msgid "Follow"
@@ -248,5 +248,5 @@ msgstr "Отписаться"
 
 #: app/templates/user.html:33
 msgid "Newer posts"
-msgstr ""
+msgstr "Новые посты"
 
