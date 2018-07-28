@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2018-07-28 23:30+0300\n"
-"PO-Revision-Date: 2018-07-28 23:37+0300\n"
+"POT-Creation-Date: 2018-07-29 00:20+0300\n"
+"PO-Revision-Date: 2018-07-29 00:20+0300\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: ru\n"
 "Language-Team: ru <LL@li.org>\n"
@@ -29,7 +29,7 @@ msgstr ""
 
 #: app/forms.py:8 app/forms.py:15 app/forms.py:33
 msgid "Username"
-msgstr ""
+msgstr "Имя"
 
 #: app/forms.py:9 app/forms.py:17 app/forms.py:62
 msgid "Password"
@@ -39,25 +39,25 @@ msgstr "Пароль"
 msgid "Remember Me"
 msgstr "Запомнить меня"
 
-#: app/forms.py:11 app/routes.py:71
+#: app/forms.py:11 app/routes.py:71 app/templates/login.html:5
 msgid "Sign In"
 msgstr ""
 
 #: app/forms.py:16 app/forms.py:34 app/forms.py:57
 msgid "Email"
-msgstr ""
+msgstr "Email"
 
 #: app/forms.py:18 app/forms.py:64
 msgid "Repeat Password"
-msgstr ""
+msgstr "Повторите пароль"
 
 #: app/forms.py:19 app/routes.py:92 app/templates/register.html:5
 msgid "Register"
-msgstr ""
+msgstr "Регистрация"
 
 #: app/forms.py:24 app/forms.py:47
 msgid "Please use a different username."
-msgstr ""
+msgstr "Пожалуйста, используйте другое имя"
 
 #: app/forms.py:29 app/forms.py:53
 msgid "Please use a different email address."
@@ -85,9 +85,9 @@ msgstr ""
 
 #: app/routes.py:36
 msgid "Home Page"
-msgstr ""
+msgstr "Главная"
 
-#: app/routes.py:51
+#: app/routes.py:51 app/templates/base.html:22
 msgid "Explore"
 msgstr ""
 
@@ -97,13 +97,13 @@ msgstr ""
 
 #: app/routes.py:90
 msgid "Congratulation, you are now a registered user!"
-msgstr ""
+msgstr "Поздравляем, теперь вызарегистрированный пользователь!"
 
 #: app/routes.py:119
 msgid "Your changes have been saved."
 msgstr ""
 
-#: app/routes.py:125
+#: app/routes.py:125 app/templates/edit_profile.html:5
 msgid "Edit Profile"
 msgstr ""
 
@@ -146,12 +146,70 @@ msgstr ""
 msgid "File Not Found"
 msgstr ""
 
-#: app/templates/404.html:5
+#: app/templates/404.html:5 app/templates/500.html:6
 msgid "Back"
+msgstr ""
+
+#: app/templates/500.html:4
+msgid "An unexpected error has occurred"
+msgstr ""
+
+#: app/templates/500.html:5
+msgid "The administrator has been notified. Sorry for the inconvenience!"
+msgstr ""
+
+#: app/templates/_post.html:14
+#, python-format
+msgid "%(username)s said %(when)s"
 msgstr ""
 
 #: app/templates/base.html:4
 msgid "Welcome to Microblog"
+msgstr ""
+
+#: app/templates/base.html:21
+msgid "Home"
+msgstr ""
+
+#: app/templates/base.html:26
+msgid "Login"
+msgstr ""
+
+#: app/templates/base.html:28
+msgid "Profile"
+msgstr ""
+
+#: app/templates/base.html:29
+msgid "Logout"
+msgstr ""
+
+#: app/templates/index.html:5
+#, python-format
+msgid "Hi, %(username)s!"
+msgstr ""
+
+#: app/templates/index.html:19
+msgid "Newest posts"
+msgstr ""
+
+#: app/templates/index.html:24 app/templates/user.html:38
+msgid "Older posts"
+msgstr ""
+
+#: app/templates/login.html:13
+msgid "New User?"
+msgstr ""
+
+#: app/templates/login.html:14
+msgid "Click to Register!"
+msgstr ""
+
+#: app/templates/login.html:17
+msgid "Forgot Your Password?"
+msgstr ""
+
+#: app/templates/login.html:18
+msgid "Click to Reset It"
 msgstr ""
 
 #: app/templates/reset_password.html:5
@@ -178,7 +236,7 @@ msgstr ""
 
 #: app/templates/user.html:17
 msgid "Edit your profile"
-msgstr "Редактировать профиль"
+msgstr ""
 
 #: app/templates/user.html:19
 msgid "Follow"
@@ -190,9 +248,5 @@ msgstr "Отписаться"
 
 #: app/templates/user.html:33
 msgid "Newer posts"
-msgstr ""
-
-#: app/templates/user.html:38
-msgid "Older posts"
 msgstr ""
 
