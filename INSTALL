@@ -23,6 +23,7 @@
     flask-mail
     pyjwt
     flask-bootstrap
-    
+    flask-moment-0.6.0
+
 
 

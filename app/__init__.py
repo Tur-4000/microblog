@@ -8,6 +8,7 @@ from flask_migrate import Migrate
 from flask_login import LoginManager
 from flask_mail import Mail
 from flask_bootstrap import Bootstrap
+from flask_moment import Moment
 
 app = Flask(__name__)
 app.config.from_object(Config)
@@ -18,6 +19,7 @@ login.login_view = 'login'
 login.login_message = "Пожалуйста, залогинтесь для доступа к этой странице"
 mail = Mail(app)
 bootstrap = Bootstrap(app)
+moment = Moment(app)
 
 if not app.debug:
     if app.config['MAIL_SERVER']:
