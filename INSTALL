@@ -1,20 +1,19 @@
 Создание виртуальной среды
-    python -m venv venv
     virtualenv venv
 
 Переключение в виртуальную среду
     venv/Scripts/activate
 
 Запус dev приложения
-    (set)export FLASK_APP=microblog.py
+    (export)set FLASK_APP=microblog.py
     flask run
 
 База данных (миграция)
     flask db init -- создание репозитория
     flask db migrate -- создание сценария миграции
-    flask db upgrade
+    flask db upgrade -- выполнение миграции
 
-Пакеты pip install
+Пакеты (pip install)
     flask
     flask-wtf
     flask-sqlalchemy
@@ -24,9 +23,15 @@
     pyjwt
     flask-bootstrap
     flask-moment-0.6.0
-    Babel-2.6.0 
-    flask-babel-0.11.2 
-    pytz-2018.5
+    flask-babel-0.11.2
+        Babel-2.6.0
+        pytz-2018.5
+    guess-language-spirit-0.5.3
+    requests-2.19.1
+        certifi-2018.4.16 
+        chardet-3.0.4 
+        idna-2.7 
+        urllib3-1.23
 
 
 
